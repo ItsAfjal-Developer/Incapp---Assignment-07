@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(187, 228, 177);
+}
+
+h1,
+h3,
+h5,
+p {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 90%;
+}
+
+header {
+  background: linear-gradient(rgba(2, 35, 61, 0.5), rgba(2, 35, 61, 0.5)),
+    url(images/banner.jpg);
+  height: 500px;
+  padding: 100px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  padding: 40px;
+  color: white;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+header p {
+  font-weight: bold;
+  margin-top: -25px;
+  color: rgb(211, 242, 198);
+}
+
+button {
+  border: none;
+  font-size: 80%;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: rgb(12, 140, 76);
+}
+
+#sec1 {
+  padding: 50px;
+  text-align: center;
+}
+
+#sec1 > section > div {
+  width: 210px;
+  margin: 10px;
+  text-align: left;
+  padding-top: 40px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#sec2 {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(184, 220, 152);
+}
+
+#sec2 > section > div {
+  width: 300px;
+  margin: 0px 5px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#sec2 > section > div > img {
+  width: 300px;
+}
+
+#sec2 > section > div > div {
+  padding: 15px 0px;
+  margin-top: -4.8px;
+  background-color: white;
+}
+
+#sec2 > section > div > div > p {
+  margin-top: -30px;
+}
+
+#sec2 > div {
+  padding: 40px 0px;
+}
+
+#sec2 > div > img {
+  width: 190px;
+  height: 150px;
+  margin: 10px;
+  border: 3px solid rgb(12, 140, 76);
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+}
